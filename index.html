@@ -1,46 +1,94 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой простой веб-сайт</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        h1 {
-            color: #0056b3;
-        }
-        p {
-            line-height: 1.6;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lamborghini - Мечта на колесах</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Добро пожаловать на мой веб-сайт!</h1>
 
-    <p>
-        Это простой пример HTML-страницы. Здесь можно разместить любой текст, изображения, ссылки и другие элементы веб-сайта.
-    </p>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#">Lamborghini</a>
+      </div>
+      <ul>
+        <li><a href="#models">Модели</a></li>
+        <li><a href="#history">История</a></li>
+        <li><a href="#technology">Технологии</a></li>
+        <li><a href="#gallery">Галерея</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <p>
-        Я учусь делать сайты, и это моя первая попытка! Надеюсь, вам понравится.
-    </p>
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Испытайте итальянскую мощь</h1>
+      <p>Lamborghini - это сочетание роскоши, скорости и передовых технологий.</p>
+      <a href="#models" class="button">Узнать больше</a>
+    </div>
+  </section>
 
-    <h2>Вот еще немного информации:</h2>
-    <ul>
-        <li>HTML - язык разметки для создания веб-страниц.</li>
-        <li>CSS - используется для стилизации веб-страниц.</li>
-        <li>JavaScript - используется для добавления интерактивности на веб-страницы.</li>
-    </ul>
+  <section id="models">
+    <h2>Модели Lamborghini</h2>
+    <div class="model-grid">
 
-    <p>
-        Спасибо за посещение!
-    </p>
+      <div class="model-card">
+        <img src="" alt="Aventador">
+        <h3>Aventador</h3>
+        <p>Легендарный суперкар с двигателем V12.</p>
+        <a href="#" class="button">Подробнее</a>
+      </div>
+
+      <div class="model-card">
+        <img src="" alt="Huracan">
+        <h3>Huracan</h3>
+        <p>Динамичный и захватывающий опыт вождения.</p>
+        <a href="#" class="button">Подробнее</a>
+      </div>
+
+      <div class="model-card">
+        <img src="" alt="Urus">
+        <h3>Urus</h3>
+        <p>Супер-SUV: мощность и универсальность.</p>
+        <a href="#" class="button">Подробнее</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="history">
+    <h2>История Lamborghini</h2>
+    <div class="history-content">
+      <p>Основанная в 1963 году, Lamborghini быстро стала символом итальянского мастерства и инноваций...</p>
+      <p>...</p>
+    </div>
+  </section>
+
+  <section id="technology">
+    <h2>Передовые Технологии</h2>
+    <div class="technology-content">
+      <p>Lamborghini использует передовые материалы, аэродинамические решения и мощные двигатели...</p>
+      <p>...</p>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Галерея</h2>
+    <div class="gallery-grid">
+      <img src="" alt="Lamborghini">
+      <img src="" alt="Lamborghini">
+      <img src="" alt="Lamborghini">
+      <img src="" alt="Lamborghini">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Lamborghini Fan Site</p>
+  </footer>
 
 </body>
 </html>
